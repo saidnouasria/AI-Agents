@@ -2,65 +2,33 @@
   "messages": [
     {
       "role": "user",
-      "content": "my name is chihab"
+      "content": "I want to buy a shoe",
+      "id": "6f78ef9b-b631-4dfc-8b9b-2de0dda1b83f",
+      "createdAt": "2025-02-22T13:49:15.681Z"
+    },
+    {
+      "role": "user",
+      "content": "I want to buy a shoe",
+      "id": "9f41132d-5ae4-48b6-ae07-6c0d1ba02511",
+      "createdAt": "2025-02-22T13:58:15.562Z"
     },
     {
       "role": "assistant",
-      "content": "nice to meet you chihab"
+      "content": "Null ..",
+      "id": "291388ec-a667-4e46-a610-c823d5703963",
+      "createdAt": "2025-02-22T13:58:16.902Z"
     },
     {
       "role": "user",
-      "content": "what is my name ?",
-      "id": "cd602cc9-56b1-4117-9a56-3d2c61eddb32",
-      "createdAt": "2025-02-18T15:07:15.525Z"
-    },
-    {
-      "role": "user",
-      "content": "what is my name ?",
-      "id": "88ed4aaf-b4e4-4ce2-ab29-d0a9bf06e63d",
-      "createdAt": "2025-02-18T15:07:42.066Z"
+      "content": "what is the weather ?",
+      "id": "369545bf-df8e-40ac-8bae-dc7736599d04",
+      "createdAt": "2025-02-22T13:58:41.380Z"
     },
     {
       "role": "assistant",
-      "content": "Your name is Chihab.",
-      "id": "09938153-ed96-4399-ba86-e895f510ad5a",
-      "createdAt": "2025-02-18T15:07:43.554Z"
-    },
-    {
-      "role": "user",
-      "content": "can you tell me the origins of my name?",
-      "id": "665defd6-18e7-4c67-9267-1ffe48ba3653",
-      "createdAt": "2025-02-18T15:09:49.765Z"
-    },
-    {
-      "role": "user",
-      "content": "can you tell me the origins of my name?",
-      "id": "dc5ccc20-a060-4a14-b253-392efd9ce70a",
-      "createdAt": "2025-02-18T15:10:36.955Z"
-    },
-    {
-      "role": "user",
-      "content": "can you tell me the origins of my name?",
-      "id": "e20849c2-fcff-42ad-8e87-61cacd32b566",
-      "createdAt": "2025-02-18T17:16:23.040Z"
-    },
-    {
-      "role": "assistant",
-      "content": "The name \"Chihab\" is of Arabic origin. It is often associated with meanings related to \"bravery\" or \"courage.\" In some contexts, it can also be linked to the concept of \"nobility\" or \"honor.\" Names in Arabic culture often carry significant meanings and are chosen for their positive connotations. If you have a specific cultural or regional context in mind, I can provide more detailed information!",
-      "id": "b245cc09-583e-4b51-926f-0dbd95ddba5f",
-      "createdAt": "2025-02-18T17:16:34.183Z"
-    },
-    {
-      "role": "user",
-      "content": "in which country we find this name the most?",
-      "id": "59fd4af7-fb1a-4f4a-b5b1-2b27666b74d5",
-      "createdAt": "2025-02-18T17:18:28.753Z"
-    },
-    {
-      "role": "assistant",
-      "content": "The name \"Chihab\" is most commonly found in Arabic-speaking countries, particularly in North Africa and the Middle East. Countries like Algeria, Tunisia, Morocco, and Lebanon may have a higher prevalence of this name. However, it can also be found among Arabic-speaking communities in other regions. The popularity of names can vary significantly based on cultural and regional factors.",
-      "id": "a9db598b-9db4-4b49-b205-58cf699a7b0a",
-      "createdAt": "2025-02-18T17:18:30.459Z"
+      "content": "Null ..",
+      "id": "b75e85fd-64d2-4de4-9f6b-5a7d7fbe5386",
+      "createdAt": "2025-02-22T13:58:42.596Z"
     }
   ]
 }
