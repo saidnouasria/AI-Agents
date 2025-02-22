@@ -1,34 +1,5 @@
 {
   "messages": [
-    {
-      "role": "user",
-      "content": "I want to buy a shoe",
-      "id": "6f78ef9b-b631-4dfc-8b9b-2de0dda1b83f",
-      "createdAt": "2025-02-22T13:49:15.681Z"
-    },
-    {
-      "role": "user",
-      "content": "I want to buy a shoe",
-      "id": "9f41132d-5ae4-48b6-ae07-6c0d1ba02511",
-      "createdAt": "2025-02-22T13:58:15.562Z"
-    },
-    {
-      "role": "assistant",
-      "content": "Null ..",
-      "id": "291388ec-a667-4e46-a610-c823d5703963",
-      "createdAt": "2025-02-22T13:58:16.902Z"
-    },
-    {
-      "role": "user",
-      "content": "what is the weather ?",
-      "id": "369545bf-df8e-40ac-8bae-dc7736599d04",
-      "createdAt": "2025-02-22T13:58:41.380Z"
-    },
-    {
-      "role": "assistant",
-      "content": "Null ..",
-      "id": "b75e85fd-64d2-4de4-9f6b-5a7d7fbe5386",
-      "createdAt": "2025-02-22T13:58:42.596Z"
-    }
+    
   ]
 }

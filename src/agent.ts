@@ -21,7 +21,7 @@ export const runAgent = async ({
     console.log(response.tool_calls)
   }
 
-  await addMessages([{ role: "assistant", content: response.content||"Null .." }])
+  await addMessages([response])
 
 //   logMessage(response)
   loader.stop()

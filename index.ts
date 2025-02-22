@@ -11,12 +11,16 @@ if (!userMessage) {
 
 const weatherTool = {
   name: "get_weather",
-  parameters: z.object({}),
+  parameters: z.object({
+    
+  }),
 }
 
 const shoppingTool = {
   name: "shop_shoes",
-  parameters: z.object({}),
+  parameters: z.object({
+    reasoning : z.string().describe('why did you pick this tool?')
+  }),
 }
 
 const response = await runAgent({ userMessage, tools: [weatherTool ,shoppingTool] })
