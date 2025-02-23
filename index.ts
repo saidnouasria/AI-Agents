@@ -23,6 +23,6 @@ const shoppingTool = {
   }),
 }
 
-const response = await runAgent({ userMessage, tools: [weatherTool ,shoppingTool] })
+await runAgent({ userMessage, tools: [weatherTool ,shoppingTool] })
 
-console.log(response)
+

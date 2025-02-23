@@ -1,5 +1,47 @@
 {
   "messages": [
-    
+    {
+      "role": "user",
+      "content": "what is the weather ?",
+      "id": "6efe3fc6-9268-46ca-90cd-819802590bfa",
+      "createdAt": "2025-02-23T09:33:16.724Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_7JM2hOe89YH9KxqV987G5E4e",
+          "type": "function",
+          "function": {
+            "name": "get_weather",
+            "arguments": "{}"
+          }
+        }
+      ],
+      "refusal": null,
+      "id": "8b3fa757-7f1d-4f5b-9368-8d18b18279d7",
+      "createdAt": "2025-02-23T09:33:18.588Z"
+    },
+    {
+      "role": "tool",
+      "content": "hot , 45 degrees",
+      "tool_call_id": "call_7JM2hOe89YH9KxqV987G5E4e",
+      "id": "1a8e830b-54ef-48c4-a858-1685c5da70cf",
+      "createdAt": "2025-02-23T09:33:18.589Z"
+    },
+    {
+      "role": "user",
+      "content": "what is the weather ?",
+      "id": "5fe075db-b2ec-45b2-a6b4-6b6a2c7f941e",
+      "createdAt": "2025-02-23T09:40:59.824Z"
+    },
+    {
+      "role": "assistant",
+      "content": "The weather is hot, with a temperature of 45 degrees.",
+      "refusal": null,
+      "id": "0fa895f4-b8b8-4aba-900d-2199118df55b",
+      "createdAt": "2025-02-23T09:41:03.102Z"
+    }
   ]
 }
