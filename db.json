@@ -2,16 +2,29 @@
   "messages": [
     {
       "role": "user",
-      "content": "what is the weather ?",
-      "id": "6efe3fc6-9268-46ca-90cd-819802590bfa",
-      "createdAt": "2025-02-23T09:33:16.724Z"
+      "content": "hi",
+      "id": "ea529d2f-0fb7-44bc-8710-b0d68dc48317",
+      "createdAt": "2025-02-24T16:02:52.464Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! How can I assist you today?",
+      "refusal": null,
+      "id": "9c09b7ef-bf4e-48d5-a20e-a9c87d578374",
+      "createdAt": "2025-02-24T16:02:56.499Z"
+    },
+    {
+      "role": "user",
+      "content": "what is the weather in algiers ?",
+      "id": "d0d68e6a-0edd-4a1c-8a1f-4c24ca120e69",
+      "createdAt": "2025-02-24T16:03:25.691Z"
     },
     {
       "role": "assistant",
       "content": null,
       "tool_calls": [
         {
-          "id": "call_7JM2hOe89YH9KxqV987G5E4e",
+          "id": "call_aqfFsWsrJTmc43U2XARQGdv1",
           "type": "function",
           "function": {
             "name": "get_weather",
@@ -20,28 +33,22 @@
         }
       ],
       "refusal": null,
-      "id": "8b3fa757-7f1d-4f5b-9368-8d18b18279d7",
-      "createdAt": "2025-02-23T09:33:18.588Z"
+      "id": "24077574-875f-415f-af4e-ab9352462a6a",
+      "createdAt": "2025-02-24T16:03:27.450Z"
     },
     {
       "role": "tool",
       "content": "hot , 45 degrees",
-      "tool_call_id": "call_7JM2hOe89YH9KxqV987G5E4e",
-      "id": "1a8e830b-54ef-48c4-a858-1685c5da70cf",
-      "createdAt": "2025-02-23T09:33:18.589Z"
-    },
-    {
-      "role": "user",
-      "content": "what is the weather ?",
-      "id": "5fe075db-b2ec-45b2-a6b4-6b6a2c7f941e",
-      "createdAt": "2025-02-23T09:40:59.824Z"
+      "tool_call_id": "call_aqfFsWsrJTmc43U2XARQGdv1",
+      "id": "ae394779-0d68-4240-8c16-ea05586543f6",
+      "createdAt": "2025-02-24T16:03:27.455Z"
     },
     {
       "role": "assistant",
-      "content": "The weather is hot, with a temperature of 45 degrees.",
+      "content": "The weather in Algiers is currently hot, with a temperature of 45 degrees Celsius. Stay cool!",
       "refusal": null,
-      "id": "0fa895f4-b8b8-4aba-900d-2199118df55b",
-      "createdAt": "2025-02-23T09:41:03.102Z"
+      "id": "2f1472f2-8b6c-441c-9d5b-b97f2d93c649",
+      "createdAt": "2025-02-24T16:03:29.254Z"
     }
   ]
 }
